@@ -1,6 +1,7 @@
 import React from "react";
 import pokedeximg from "../assets/images/pokedex.png"
 import kanifyimg from "../assets/images/kanify.jpeg"
+import alfredimg from "../assets/images/alfredjpn.png"
 
 
 class Projects extends React.Component {
@@ -25,8 +26,8 @@ class Projects extends React.Component {
               </p>
               <ul className="actions special">
                 <li>
-                  <a href="#" className="button">
-                    More
+                  <a target="_blank" href="https://github.com/Mohit-Doshi/CSE412-Pokedex" className="button">
+                    Github Link
                   </a>
                 </li>
               </ul>
@@ -44,25 +45,27 @@ class Projects extends React.Component {
               </p>
               <ul className="actions special">
                 <li>
-                  <a href="#" className="button">
-                    More
+                  <a target="_blank" href="https://github.com/jdeocampo99/kanify" className="button">
+                    Github Link
                   </a>
                 </li>
               </ul>
             </div>
             <div className="col-4 col-12-medium">
               <span className="image fit">
-                <img className="projectImage" src="images/pic04.jpg" alt />
+                <img className="projectImage" src={alfredimg} />
               </span>
               <h3>Japanese Translation Workflow</h3>
               <p>
-                Adipiscing a commodo ante nunc magna lorem et interdum mi ante
-                nunc lobortis non amet vis sed volutpat et nascetur.
+                This is an Alfred workflow which translates between English and Japanese,
+                has in-depth vocabulary lookups, and generates verb conjugations for a given verb.
+                I made this to aid in studying Japanese so that I could look up words that I didn't
+                know faster. It was made using <strong>Python</strong>.
               </p>
               <ul className="actions special">
                 <li>
-                  <a href="#" className="button">
-                    More
+                  <a target="_blank" href="https://github.com/jdeocampo99/Alfred-JapaneseTranslator" className="button">
+                    Github Link
                   </a>
                 </li>
               </ul>
